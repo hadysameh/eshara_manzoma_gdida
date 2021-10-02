@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.css">
+</head>
+<body>
+    <!-- <button class="btn btn-primary">test</button> -->
+
+    <div class="row" style="width: 101%;">
+        <div class="col-4 ">
+            <div class="row p-2 bg-">
+                <div class="container col-3">
+                    <div class="d-flex">
+                        <img src="fbg.png" style='height: 80px;'alt="">
+                        <img src="logo.jpg" style='height: 80px;'alt="">
+                    </div>
+                   
+                </div>
+                <div class="container col-9 pt-3">
+                    <h2 dir="rtl">
+                        شعبه الاشارة الجوية
+                    </h2>
+                    <h5 dir="rtl">
+                        رئيس الشعبة
+                    </h5>
+                </div>
+            </div>
+            
+            <div class=" p-4 border ">
+                <div class="container d-flex justify-content-around" >
+                    <button class="btn btn-primary">الوراد</button>
+                    <button class="btn btn-primary">الصادر</button>
+                    <button class="btn btn-primary">جميع المكاتبات</button>
+                </div>
+            </div>
+            
+            <div class="container p-2 border" style="height:71vh">
+                <nav>
+                    <form onsubmit="return false">
+                        <div class="row">
+                            <div class="col-6">
+                                <input id="query" class="form-control form-label" placeholder="رقم المكاتبة">
+                            </div>
+                            <div class="col-3">
+                                <select id="sm" class="form-select form-label">
+                                    <option value="1">رقم الوارد</option>
+                                    <option value="2">رقم الصادر</option>
+                                    <option value="3">بشأن</option>
+                                    <option value="4">الجهة</option>
+                                    <option value="5">بخصوص</option>
+                                    <option value="-1">الجميع</option>
+                                </select>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn  btn-success" id="searchBtn" onclick="searchData(false)" data-type="ward">بحث</button>
+                            </div>
+                    </form>
+                    <nav>
+                        <ul id='list' onscroll="scroll" class='list-group ulnav' style="height: 350PX; list-style-type: none;overflow:hidden; overflow-y:scroll; ">
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                
+                                <div class="row">
+                                    <div class="col-2">
+                                        6894
+                                    </div>
+                                    <div class="col-10" >
+                                        <div  class="text-right">
+                                            
+                                            تحسين الشكل العام للمنظومة
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+                            <li style="background-color:white"class="list-group-item my-1" >
+                                6894
+                            </li>
+
+                            
+                        </ul>
+                    </nav>
+                    <div dir="rtl">
+                        <button class='btn btn-light my-3'>تسجيل صوتي</button>
+                        <button class='btn btn-light my-3'>اعطاء تاشيرة</button>
+                        <!-- <button class='btn btn-light my-3'>تنزيل</button> -->
+                        <button class='btn btn-light my-3'>ملاحظات</button>
+                        <button class='btn btn-light my-3'>المزيد</button>
+                        <button class='btn btn-light my-3'>عرض</button>
+                        <button class='btn btn-danger my-3'>حذف</button>
+                        <button class='btn btn-dark my-3'>تسجيل خروج</button>
+                    </div>                    
+                </nav>
+            </div>
+            
+        </div>
+    <div class="col-8">
+        <div class="row">
+            <div class=" col-12 text-xl text-white bg-dark">
+                <p class="h3"  >
+                    <table class="table table-bordered text-center bg-light " dir="rtl"> 
+                        <tbody>
+                            <tr>
+                              <td class=" h3 col-2"><span class="text-success">: التصنيف</span> <span class="text-danger">اتخاذ اللازم</span>  </td>
+                              <td>شان المكاتبة</td>
+                              <td class="text-success h3 col-2">2021-09-22</td>
+                            </tr>
+                            
+                            
+                          </tbody>
+                    </table>
+                </p>
+                
+            </div>
+            <div class="bg-secondary col-12 p-2 text-xl text-white">
+                 
+                <p class="h4  p-2" dir="rtl">
+                    الملاحظات : استعداد
+                </p>
+            </div>
+            <div class="col-12">
+                <iframe id="pdfContainer" src="./6894.pdf" style="width:100%;height:130vh;">
+                </iframe>
+            </div>
+         
+            
+        </div>
+        
+    </div>
+    </div>
+    <script>
+        let mokatba_list = document.querySelector('#list').addEventListener("scroll",list_scroll);
+        function list_scroll(el){
+            // console.log(el.target.scrollTop)
+            if(el.target.scrollTop>850){
+                // make backend fetch here
+                console.log('will fetch')
+
+            }
+            
+        }
+        
+    </script>
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./bootstrap/js/bootstrap.esm.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
